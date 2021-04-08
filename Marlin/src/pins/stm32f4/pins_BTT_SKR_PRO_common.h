@@ -59,7 +59,7 @@
 #ifdef X_STALL_SENSITIVITY
   #define X_STOP_PIN                  X_DIAG_PIN
   #if X_HOME_DIR < 0
-    #define X_MAX_PIN                       PE15  // E0
+    #define X_MAX_PIN                       PG5  // E2
   #else
     #define X_MIN_PIN                       PE15  // E0
   #endif
